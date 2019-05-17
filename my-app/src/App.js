@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Props from './Props'
+import Login from './login/index'
 // 组件1
 class Clock extends React.Component {
   /**
@@ -59,12 +59,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <div id="time">
           {/* 组件调用 同一个组件可以多次调用*/}
-          <Clock />
+          <Login />
           {/* 组件调用时可传递组件参数，组件内使用this.props.name接收*/}
-          <Props name="data1.name"/>
+          {/* <Props name="data1.name"/> */}
         </div>
       </header>
     </div>
