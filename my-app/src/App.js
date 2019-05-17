@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ReactDOM from 'react-dom';
-
+import Props from './Props'
 // 组件1
 class Clock extends React.Component {
   /**
@@ -64,10 +63,20 @@ function App() {
         <div id="time">
           {/* 组件调用 同一个组件可以多次调用*/}
           <Clock />
-          <Clock />
+          {/* 组件调用时可传递组件参数，组件内使用this.props.name接收*/}
+          <Props name="data1.name"/>
         </div>
       </header>
     </div>
   );
 }
-export default App;
+
+
+export default App
+
+
+
+
+
+
+
