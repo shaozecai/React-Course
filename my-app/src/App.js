@@ -4,7 +4,7 @@ import './App.css';
 import Login from './login/index'
 
 import List from './list/index'
-
+import Bootstrap from './bootstrap/index'
 
 // 组件1
 class Clock extends React.Component {
@@ -69,8 +69,10 @@ function App() {
           {/* 组件调用时可传递组件参数，组件内使用this.props.name接收*/}
           {/* <Props name="data1.name"/> */}
           {/* <Login /> */}
-          <List></List>
+          {/* <List></List> */}
+          
         </div>
+        <Bootstrap></Bootstrap>
       </header>
     </div>
   );
