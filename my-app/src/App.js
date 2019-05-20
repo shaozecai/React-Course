@@ -5,6 +5,7 @@ import Login from './login/index'
 
 import List from './list/index'
 import Bootstrap from './bootstrap/index'
+import ComponentApi from './component-api/index'
 
 // 组件1
 class Clock extends React.Component {
@@ -72,7 +73,8 @@ function App() {
           {/* <List></List> */}
           
         </div>
-        <Bootstrap></Bootstrap>
+        {/* <Bootstrap></Bootstrap> */}
+        <ComponentApi></ComponentApi>
       </header>
     </div>
   );
