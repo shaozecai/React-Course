@@ -1,6 +1,8 @@
 # React Course
 > React框架学习Demo.
 
+> React Component Life Cycle(src/life-cycle)
+
 
 ## Build Setup
 
