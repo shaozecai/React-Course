@@ -7,6 +7,7 @@ import List from './list/index'
 import Bootstrap from './bootstrap/index'
 import ComponentApi from './component-api/index'
 import LifeCyle from './life-cycle/inde'
+import Communication from './communication/index'
 
 // 组件1
 class Clock extends React.Component {
@@ -76,7 +77,8 @@ function App() {
         </div>
         {/* <Bootstrap></Bootstrap> */}
         {/* <ComponentApi></ComponentApi> */}
-        <LifeCyle></LifeCyle>
+        {/* <LifeCyle></LifeCyle> */}
+        <Communication></Communication>
       </header>
     </div>
   );
